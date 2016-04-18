@@ -1,0 +1,33 @@
+body:after {
+  font-size: 300%;
+  position: fixed;
+  bottom: 60px;
+  width: 100%;
+  background-color: #ff4455;
+  text-align: center;
+}
+
+@media only screen and (min-width: 1024px) {
+  body:after {
+    content: "320 and up";
+    color: blue;
+  }
+
+  @media only screen and (min-width: 1024px) {
+    body:after {
+      content: "480 and up";
+      color: purple;
+    }
+
+    @media only screen and (min-width: 1024px) {
+      body:after {
+        content: "1024 and up";
+        color: #fff;
+      }
+
+      @media only screen and (min-width: 1024px) {
+        body:after {
+          content: "768 and up";
+          color: green;
+        }
+}

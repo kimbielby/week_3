@@ -1,0 +1,14 @@
+var words, message;
+
+var words = [
+  'January',
+  'lacks',
+  'caveats',
+  'hazardous',
+  'DOORS',
+  'crying',
+  'arrogantly',
+  'climate',
+  'proponent',
+  'rebuttal'
+];
